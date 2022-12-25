@@ -1,0 +1,160 @@
+
+body{
+    font-family: Montserrat;
+}
+
+/* Navbar section */
+.navbar{
+    padding-left: 0;
+    margin-bottom: 7%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.nav-item{
+    margin:0 8%;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 10%;
+}
+    
+h1{
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2{
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: Montserrat; 
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+.title-img{
+    transform:rotate(25deg);
+    width: 60%;
+    position: absolute;
+}
+
+/* Featuers */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-fit{
+    width:60%;
+}
+
+.fpad{
+    text-align: center;
+    padding: 4%;
+}
+
+.fi{
+    margin:10px 2%;
+    color: #ef8172;
+}
+.fi:hover{
+    color:#ff4c68;
+}
+ 
+/* Testimonial Section */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding:7% 15%;
+}
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom:3%;
+}
+
+.press-logo{
+    width:15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing  */
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pri-col{
+    padding:3% 3%;
+}
+
+.card-header{
+    background-color: #ff4c68;
+}
+
+/* Before footer */
+#cta{
+    background-color: #ff4c68;
+    font-family: Montserrat; 
+    font-weight: bold;
+    padding:6% 20% 9%;
+}
+
+.cta-size{
+    font-size: 3.5rem;
+    color:#fff;
+    padding-bottom:3%;
+}
+
+.bdif{
+    margin:2%;
+}
+
+/* footer division */
+#footer{
+    margin:5%;
+    margin-bottom: 0;
+}
+
+.idif{
+    margin:4px;
+}
+
+@media(max-width:1020px){
+    .title-img{
+        padding-top:10%;
+        position:static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
